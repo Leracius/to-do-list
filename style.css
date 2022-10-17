@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+
+  #div1{
+    align-items: center;
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+ section{
+    width: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+form{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+  #h1 {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 25px;
+}
+#h1-1{
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 25px;
+  font-size: small;
+}
+#buton{
+    color: aliceblue;
+    padding: 0.5em;
+    background: #141414;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#buton:hover{
+  background: gray;
+}
+#buton2{
+  background:transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  border-radius: 15PX;
+  padding: 0.75em;
+  width: 200px;
+  color: white;
+}  
+#buton2-1{
+    background:transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-radius: 15PX;
+    padding: 0.75em;
+    width: 200px;
+    color: white;
+  }
+#container{
+  margin-top: 15px;
+  list-style: none;
+  text-align: center;
+  width: 60%;
+  margin: 0;
+  background:transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: small;
+  padding: 10px;
+}
+li{
+  list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  height: 15px;
+  border-radius: 10px;
+  background-color: grey;
+  margin: 7px;
+  padding: 5px;
+}
+#buton2:hover,#buton2-1:hover{
+  background-color: #141414;
+}
+button:hover{
+  background: rgb(114, 207, 133);
+}
+input{
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(54, 54, 54);
+  border-radius: 10px;
+  border: none;
+}
+
+@media only screen and (max-width: 900px){
+  #h1{
+    margin-top: 75px;
+    font-size: 30px;
+    
+  }
+  #div1{
+    width: 60%;
+  }
+  input{
+    width: 100%;
+  }
+  li{
+    border-radius: 10px;
+    background-color: #141414;
+    margin: 5px;
+  }
+}
