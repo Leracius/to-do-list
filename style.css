@@ -11,12 +11,13 @@ body{
   
 
   #div1{
-    align-items: center;
+    height: 100%;
+    width: 100%;
     margin-top: 10px;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
+    margin: 10px;
   }
 
  section{
@@ -28,24 +29,22 @@ body{
     justify-content: flex-start;
     align-items: center;
   }
-
 form{
-  width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
 
 }
-
-  #h1 {
-    width: 100%;
-    color: white;
-    background-color: transparent;
-    text-align: center;
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 25px;
+#h1{
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 25px;
 }
 #h1-1{
   width: 100%;
@@ -57,87 +56,73 @@ form{
   margin-top: 25px;
   font-size: small;
 }
-#buton{
-    color: aliceblue;
-    padding: 0.5em;
-    background: #141414;
-    border: none;
-    margin-left: 10px;
-    border-radius: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
+
 #buton:hover{
   background: gray;
 }
-#buton2{
-  background:transparent;
-  font-family: 'Source Sans Pro', sans-serif;
-  border: none;
-  border-radius: 15PX;
-  padding: 0.75em;
-  width: 200px;
-  color: white;
-}  
-#buton2-1{
-    background:transparent;
-    font-family: 'Source Sans Pro', sans-serif;
-    border: none;
-    border-radius: 15PX;
-    padding: 0.75em;
-    width: 200px;
-    color: white;
-  }
 #container{
   margin-top: 15px;
   list-style: none;
   text-align: center;
-  width: 60%;
+  width: 100%;
   margin: 0;
   background:transparent;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-size: small;
-  padding: 10px;
+  padding: 0;
+  display: block;
 }
 li{
   list-style: none;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  height: 15px;
-  border-radius: 10px;
-  background-color: grey;
-  margin: 7px;
-  padding: 5px;
-}
-#buton2:hover,#buton2-1:hover{
-  background-color: #141414;
+  height: 24px;
+  font-size: 25px;
+  padding: 0;
+  margin: 10px;
 }
 button:hover{
   background: rgb(114, 207, 133);
 }
-input{
-  color: white;
+#buton{
+  color: aliceblue;
   padding: 0.5em;
+  background-color: #242424;
+  border: none;
+  border-radius: 0px 10px 10px 0px ;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+input{
+
+  color: white;
   background-color: rgb(54, 54, 54);
   border-radius: 10px;
   border: none;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  
 }
-
 @media only screen and (max-width: 900px){
   #h1{
     margin-top: 75px;
-    font-size: 30px;
+    font-size: 50px;
     
   }
-  #div1{
-    width: 60%;
+  #buton{
+    height: 52px;
+    padding: 10px;
+    width: 15%;
+    font-size: 28px;
   }
   input{
-    width: 100%;
+    font-size: 20px;
+    width: 85%;
   }
   li{
-    border-radius: 10px;
-    background-color: #141414;
-    margin: 5px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: solid rgb(48, 48, 48) 1px;
+    padding-bottom: 5px;
   }
 }
