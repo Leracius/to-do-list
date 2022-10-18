@@ -1,10 +1,10 @@
 body{
     margin: 0;
     height: 100vh;
-    background-image: url(https://w0.peakpx.com/wallpaper/707/472/HD-wallpaper-minimal-desert-black-dark-desert-minimal-moon-red-stars.jpg);
+    /* background-image: url(https://w0.peakpx.com/wallpaper/707/472/HD-wallpaper-minimal-desert-black-dark-desert-minimal-moon-red-stars.jpg); */
     background-position: center;
     background-size: cover;
-
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,7 +17,7 @@ body{
     width: 100%;
     margin-top: 10px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 10px;
   }
@@ -36,18 +36,23 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 50px;
+height:150px;
 
 }
 #h1{
   width: 100%;
-  color: white;
+  margin-bottom: 10px;
+  color:rgb(45, 255, 157) ;
   background-color: transparent;
   text-align: center;
   margin: 0;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif
 }
 #h1-1{
+  padding-top: 10px;
   width: 100%;
   color: white;
   background-color: transparent;
@@ -55,17 +60,14 @@ height: 50px;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: small;
-  margin-top: 60px;
+ 
 }
 
-#buton:hover{
-  background: gray;
-}
 #container{
   margin-top: 15px;
   list-style: none;
   text-align: center;
-  width: 100%;
+  width: 60%;
   margin: 0;
   background:transparent;
   font-family: 'Source Sans Pro', sans-serif;
@@ -77,11 +79,11 @@ height: 50px;
 li{
   list-style: none;
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color:rgb(45, 255, 157);
   height: 24px;
-  font-size: 25px;
+  font-size: 14px;
   padding: 0;
-  margin: 10px;
+  /* margin: 10px; */
 }
 button:hover{
   background: rgb(114, 207, 133);
@@ -89,29 +91,33 @@ button:hover{
 #buton{
   color: aliceblue;
   padding: 0.5em;
-  border: none;
-  background-color: #242424;
-  border-radius: 10px ;
+  border: solid rgb(45, 255, 157) 1px;
+  background-color: rgb(0, 0, 0);
+  
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  height: 50px;
 
 }
 input{
 
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: transparent;
-  border-radius: 10px;
-  border: none;
-  height: 100%;
-  border-radius: 10px;
-  
+  height: 47px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: solid rgb(45, 255, 157) 1px;
+
   
 }
 @media only screen and (max-width: 900px){
   #h1{
     font-size: 40px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 30px;
-    
+  }
+  #div1{
+    justify-content: space-between;
   }
   #buton{
     height: 52px;
@@ -125,10 +131,15 @@ input{
     width: 85%;
   }
   li{
-    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
     font-size: 18px;
     background-color:transparent;
-    border-bottom: solid rgb(48, 48, 48) 1px;
-    padding-bottom: 5px;
+    border: solid rgb(45, 255, 157) 1px;
+    margin-bottom: 1px;
   }
 }
