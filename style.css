@@ -13,15 +13,18 @@ body{
   
 
   #div1{
-    height: 100%;
     width: 100%;
     margin-top: 10px;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    
     margin: 10px;
   }
 
+#section-1{
+  height: 200px;
+  background-color: aliceblue;
+}
  section{
     width: 100%;
     
@@ -31,18 +34,16 @@ body{
     justify-content: flex-start;
     align-items: center;
   }
-form{
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-height:150px;
-
+form
+{  width: 100%;
+  display: flex;
+  justify-content: start;
+  height:80px;
 }
 #h1{
   width: 100%;
   margin-bottom: 10px;
-  color:rgb(45, 255, 157) ;
+  color:rgb(255, 255, 255) ;
   background-color: transparent;
   text-align: center;
   margin: 0;
@@ -80,9 +81,8 @@ li{
   list-style: none;
   font-family: 'Source Sans Pro', sans-serif;
   color:rgb(45, 255, 157);
-  height: 24px;
   font-size: 14px;
-  padding: 0;
+  padding: 5px;
   /* margin: 10px; */
 }
 button:hover{
@@ -91,8 +91,8 @@ button:hover{
 #buton{
   color: aliceblue;
   padding: 0.5em;
-  border: solid rgb(45, 255, 157) 1px;
-  background-color: rgb(0, 0, 0);
+  border:none;
+  background-color: transparent;
   
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
@@ -106,7 +106,8 @@ input{
   height: 47px;
   margin-right: 10px;
   font-size: 20px;
-  border: solid rgb(45, 255, 157) 1px;
+  border: none;
+  border-radius: 20px;
 
   
 }
@@ -114,12 +115,14 @@ input{
   #h1{
     font-size: 40px;
     /* margin-top: 30px; */
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   #div1{
     justify-content: space-between;
+    align-items: center;
   }
   #buton{
+    text-align: center;
     height: 52px;
     margin-left: 8px;
     padding: 10px;
@@ -132,14 +135,16 @@ input{
   }
   li{
 
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 40px;
     font-size: 18px;
-    background-color:transparent;
-    border: solid rgb(45, 255, 157) 1px;
-    margin-bottom: 1px;
+    background-color: rgba(37, 37, 37, 0.562);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    box-sizing: content-box;
   }
 }
